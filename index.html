@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipika's Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="doctor.jpg" alt="Dipika">
+            <h1>Dipika Sheshrao Dhakane</h1>
+            <p>Final Year BHMS Student</p>
+            <p>Rank Holder</p>
+            <p>Handled many cases and cured many patients so far.</p>
+            <p>
+                <a href="https://youtube.com/@dipik4201?si=zWzUgqa5lRN6r86I" target="_blank">My YouTube Channel Link</a> | 
+                <a href="mailto:dipika.dhakane1234@gmail.com">Email Me</a>
+            </p>
+
+            <h2>Treatments Provided:</h2>
+            <div class="treatments">
+                <span>Hair Falling Treatment</span><br>
+                <span>Height Phobia</span><br>
+                <span>Depression</span><br>
+                <span>Skin Treatment</span><br>
+                <span>Crack Heels Treatment</span><br>
+                <span>And many more...</span>
+            </div>
+        </div>
+
+        <form id="feedback-form">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            
+            <label for="comment">Your Feedback:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+
+        <div id="feedback-display">
+            <h2>Recent Feedback</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
